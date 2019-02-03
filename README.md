@@ -1,6 +1,12 @@
-![VIM](https://dnp4pehkvoo6n.cloudfront.net/43c5af597bd5c1a64eb1829f011c208f/as/Ultimate%20Vimrc.svg)
+## How to install?
+	git clone --depth=1 https://github.com/paulsantolla/vimrc.git ~/.vim_runtime
+	sh ~/.vim_runtime/install_awesome_vimrc.sh
 
-# The Ultimate vimrc
+If you have vim aliased as `vi` instead of `vim`, make sure to either alias it: `alias vi=vim`. Otherwise, `apt-get install vim`
+
+
+
+# BELOW IS THE ORIGINAL ULTIMATE VIMRC README
 
 Over the last 10 years, I have used and tweaked Vim. This configuration is the ultimate vimrc (or at least my version of it).
 
