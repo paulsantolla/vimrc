@@ -14,7 +14,7 @@ highlight ColorColumn ctermbg=gray
 set colorcolumn=80
 
 syntax enable
-colorscheme monokai_pro
+"colorscheme monokai_pro
 
 "set vimscroll for iterm2
 "set mouse=a
