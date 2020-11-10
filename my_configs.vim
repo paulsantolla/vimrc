@@ -34,3 +34,9 @@ map <leader>r :MRU<cr>
 
 ":map <C-\> :tab split<CR>:exec("tag ".expand("<cword>"))<CR>
 ":map <C-[> :vsp <CR>:exec("tag ".expand("<cword>"))<CR>
+
+"augroup AutoSaveFolds
+"  autocmd!
+"  autocmd BufWinLeave ?* mkview
+"  autocmd BufWinEnter ?* silent loadview
+"augroup END
